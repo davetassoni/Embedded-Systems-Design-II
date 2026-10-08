@@ -1,0 +1,5 @@
+run the below lines in Matlab. Swap out the path for whatever the path is to the simulink directory
+addpath('C:\ESD2\Embedded-Systems-Design-II\Lab\4_progress\fusion2_vivado\simulink2019b') 
+addpath('C:\ESD2\Embedded-Systems-Design-II\Lab\4_progress\fusion2_vivado\simulink2019b\Fusion2')
+Fusion2Registration.plugin_board
+savepath

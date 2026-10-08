@@ -1,0 +1,6 @@
+rMin                      = 0
+rMax                      = 47
+bMin                      = 0
+bMax                      = 255
+gMin                      = 0
+gMax                      = 255

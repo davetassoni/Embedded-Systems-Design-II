@@ -1,0 +1,14 @@
+import os
+import mmap
+import struct
+
+
+class globals():
+    rMin = 100
+    rMax = 100
+    gMin = 100
+    gMax = 100
+    bMin = 100
+    bMax = 100
+    image_filepath = ""
+    filterOption = 0

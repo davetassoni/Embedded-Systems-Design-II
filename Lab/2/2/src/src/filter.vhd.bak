@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+-- Dr. Kaputa
+-- adder and subtractor [behavioral]
+-------------------------------------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity filter is
+  port (
+    clk           : in  std_logic;
+    reset         : in  std_logic;
+    r         : in  std_logic_vector(7 downto 0);
+    g         : in  std_logic_vector(7 downto 0);
+    b         : in  std_logic_vector(7 downto 0);
+    -- r_min         : in  std_logic_vector(7 downto 0);
+    -- r_max         : in  std_logic_vector(7 downto 0);
+    -- g_min         : in  std_logic_vector(7 downto 0);
+    -- g_max         : in  std_logic_vector(7 downto 0);
+    -- b_min         : in  std_logic_vector(7 downto 0);
+    -- b_max         : in  std_logic_vector(7 downto 0);
+    -- r_out         : out std_logic_vector(7 downto 0);
+    -- g_out         : out std_logic_vector(7 downto 0);
+    -- b_out         : out std_logic_vector(7 downto 0)
+  );
+end entity filter;
+
+architecture beh of filter is
+
+begin
+r_out <= r;
+g_out <= g;
+b_out <= b;
+end beh;

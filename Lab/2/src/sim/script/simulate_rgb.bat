@@ -1,0 +1,1 @@
+vsim -do sim_rgb.do
