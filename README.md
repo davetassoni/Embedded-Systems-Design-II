@@ -24,7 +24,7 @@ Each lab folder holds `src/` (code) and `doc/` (the tech memo I wrote for it).
 
 A team project with **Brian ([@brianzarzuela](https://github.com/brianzarzuela))**. The system tracks a ball in 3D from a Snickerdoodle stereo camera pair and uses an AprilTag for the camera's pose. The required features were camera calibration, system accuracy analysis, coefficient of restitution, LED visualisation, the AprilTag tracker and camera motion errors.
 
-- **The team's code** is in Brian's repository: [ESD2-Tharros-final-project](https://github.com/brianzarzuela/ESD2-Tharros-final-project)
+- **The shared team code** lives in Brian's own repository and isn't included here; this repo has my parts of the project
 - [Final_Project/Docs](Final_Project/Docs) has the PDR and CDR presentations and my individual final tech memo (the tech memos are individual work, not team work)
 - [Final_Project/Code/dave-pose-detect-local](Final_Project/Code/dave-pose-detect-local) is my part of the code: MATLAB stereo camera calibration (`stereoParams.mat`, `poseDetect.m`) from twenty sets of calibration images
 - [Final_Project/Code/Unity](Final_Project/Code/Unity) and the loose Python scripts next to it were used to visualise the ball's position

@@ -54,7 +54,7 @@ __pycache__/
 *.pyc
 
 # Unity: standard AprilTag images that came with the MathWorks package (untouched since download)
-Assets/Tags/
+**/Assets/Tags/
 
 # Vivado-generated IP output (Xilinx source and netlists regenerated from the block design)
 ipshared/
