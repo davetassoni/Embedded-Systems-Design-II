@@ -22,7 +22,7 @@ Each lab folder holds `src/` (code) and `doc/` (the tech memo I wrote for it).
 
 ## Final project: Tharros, an AprilTag table tennis tracker (team project)
 
-A team project with **Brian ([@brianzarzuela](https://github.com/brianzarzuela))**. The system tracks a ball in 3D from a Snickerdoodle stereo camera pair and uses an AprilTag for the camera's pose. The required features were camera calibration, system accuracy analysis, coefficient of restitution, LED visualisation, the AprilTag tracker and camera motion errors.
+A team project with **Brian ([@brianzarzuela](https://github.com/brianzarzuela))**, with help from **Athaxes ([@axa2012](https://github.com/axa2012))**. The system tracks a ball in 3D from a Snickerdoodle stereo camera pair and uses an AprilTag for the camera's pose. The required features were camera calibration, system accuracy analysis, coefficient of restitution, LED visualisation, the AprilTag tracker and camera motion errors.
 
 - **The shared team code** lives in Brian's own repository and isn't included here; this repo has my parts of the project
 - [Final_Project/Docs](Final_Project/Docs) has the PDR and CDR presentations and my individual final tech memo (the tech memos are individual work, not team work)
